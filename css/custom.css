@@ -1,0 +1,41 @@
+/* Teacher rating style */
+.teacher-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.teacher-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.teacher-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.teacher-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
